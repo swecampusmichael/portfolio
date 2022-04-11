@@ -733,6 +733,23 @@
 	color: #333;
 }
 
+.portfolio-item-image {
+    overflow: hidden;
+    max-width: 100%;
+	-webkit-transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-ms-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.portfolio-item-image:hover{
+	-moz-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
 /*============================================
 * END Footer Area
 *=============================================*/
